@@ -1,7 +1,7 @@
 {
 	"head": {
 		"title": "小康的个人主页",
-		"name": "Dreamy.TZK",
+		"name": "DreamyTZK",
 		"keywords": "小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
 		"favicon": "https://cdn.jsdelivr.net/npm/kang-static@latest/Hexo/img/favicon.ico",
 		"description": "一个收藏回忆的地方",
@@ -81,7 +81,7 @@
 	"speak": {
 		"quote": "<span>快来看看小康说了啥！完整版Speak请访问：<a href='https://www.antmoe.com/speak' target='_blank'>https://www.antmoe.com/speak</a></span>",
 		"owner": "antmoe",
-		"repo": "speak",
+		"repo": "xiaokang.me",
 		"per_page": 5,
 		"defaultLabelName": "Deafult",
 		"defaultLabelColor": "#ffc107"
