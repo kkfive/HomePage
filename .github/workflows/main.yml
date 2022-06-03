@@ -41,8 +41,8 @@ jobs:
       - name: 5. 生成页面并压缩
         run: |
           yarn run build
-	  mv vercel.json dist
-
+					mv vercel.json dist
+					
       - name: 6. 下载博客的rss订阅
         if: env.BLOG_RSS
         run: |
@@ -55,3 +55,9 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+      
+			- name: 8. Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 1
+          keep_minimum_runs: 0
