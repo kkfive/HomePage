@@ -9,9 +9,11 @@ const babel = require("gulp-babel");
 const autoprefixer = require("gulp-autoprefixer");
 const connect = require("gulp-connect");
 const pug = require("gulp-pug");
-const sass = require("gulp-sass");
 const rename = require("gulp-rename");
-sass.compiler = require("node-sass");
+
+const dartSass = require("sass");
+const gulpSass = require("gulp-sass");
+const sass = gulpSass(dartSass);
 
 const config = require("./config.json");
 
