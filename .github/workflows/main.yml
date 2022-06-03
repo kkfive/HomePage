@@ -41,8 +41,8 @@ jobs:
       - name: 5. 生成页面并压缩
         run: |
           yarn run build
-					mv vercel.json dist
-					
+	  			mv vercel.json dist
+
       - name: 6. 下载博客的rss订阅
         if: env.BLOG_RSS
         run: |
