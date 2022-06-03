@@ -1,0 +1,25 @@
+{
+	"headers": [
+		{
+			"source": "(.*)",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, s-maxage=31536000, max-age=31536000"
+				}
+			]
+		}
+	],
+	"redirects": [
+		{
+			"source": "/atom.xml",
+			"destination": "https://kkfive.gitee.io/atom.xml",
+			"statusCode": 301
+		},
+		{
+			"source": "/rss.xml",
+			"destination": "https://kkfive.gitee.io/rss.xml",
+			"statusCode": 301
+		}
+	]
+}

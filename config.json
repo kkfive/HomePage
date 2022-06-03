@@ -3,13 +3,13 @@
 		"title": "小康的个人主页",
 		"name": "DreamyTZK",
 		"keywords": "小康博客,小康,个人博客,python,云原生应用,技术,学习,技术分享,学习笔记,前端,全栈,前端程序员,JavaScript",
-		"favicon": "https://cdn.jsdelivr.net/npm/kang-static@latest/Hexo/img/favicon.ico",
+		"favicon": "https://cdn1.tianli0.top/npm/kang-static@latest/Hexo/img/favicon.ico",
 		"description": "一个收藏回忆的地方",
-		"image": "https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg"
+		"image": "https://cdn1.tianli0.top/npm/kang-static@latest/avatar.jpg"
 	},
 	"link": {
-		"cdn_": "https://cdn.jsdelivr.net/npm/kang-static/home",
-		"cdn": "https://cdn.jsdelivr.net/npm/kang-static/home"
+		"cdn_": "https://cdn1.tianli0.top/npm/kang-static/home",
+		"cdn": "https://cdn1.tianli0.top/npm/kang-static/home"
 	},
 	"index": {
 		"name": "DreamyTZK",
@@ -20,43 +20,43 @@
 				"name": "首页",
 				"link": "/",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/home.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/home.svg"
 			},
 			{
 				"name": "说说",
-				"link": "/speak.html",
-				"out": 0,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/speak.svg"
+				"link": "https://www.antmoe.com/speak/",
+				"out": 1,
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/speak.svg"
 			},
 			{
 				"name": "小站",
 				"link": "/link.html",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/safari.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/safari.svg"
 			},
 			{
 				"name": "关于",
 				"link": "/about.html",
 				"out": 0,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/about.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/about.svg"
 			},
 			{
 				"name": "博客",
 				"link": "https://www.antmoe.com/",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/blog.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/blog.svg"
 			},
 			{
 				"name": "微信",
-				"link": "https://cdn.jsdelivr.net/gh/tzki/HexoStaticFile@latest/pay/wechat.jpg",
+				"link": "https://cdn1.tianli0.top/gh/tzki/HexoStaticFile@latest/pay/wechat.jpg",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/wechat.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/wechat.svg"
 			},
 			{
 				"name": "开往",
 				"link": "https://travellings.now.sh/",
 				"out": 1,
-				"img": "https://cdn.jsdelivr.net/npm/kang-static/home/assets/link.svg"
+				"img": "https://cdn1.tianli0.top/npm/kang-static/home/assets/link.svg"
 			}
 		],
 		"main": {
@@ -138,13 +138,13 @@
 	},
 	"redirect": [
 		{
-			"url": "https://blog.csdn.net/tzki",
-			"title": "Go to XiaoKang's CSDN Blog",
+			"url": "https://www.antmoe.com/",
+			"title": "小康博客 - 每天进步一点点",
 			"time": 2,
-			"desc": "小康的CSDN博客",
-			"name": "欢迎访问小康的CSDN博客哦！",
-			"image": "https://files.alexhchu.com/2020/09/26/c020df45cf803.png",
-			"path": "csdn"
+			"desc": "小康博客 - 每天进步一点点",
+			"name": "xiaokang",
+			"image": "https://cdn1.tianli0.top/npm/kang-static@latest/avatar.jpg",
+			"path": "blog"
 		},
 		{
 			"url": "https://www.antmoe.com/love/",
@@ -154,15 +154,6 @@
 			"name": "lover！",
 			"image": "https://ae01.alicdn.com/kf/H75e7cfe46df641ef8d5fbcda45fac537d.jpg",
 			"path": "TikF"
-		},
-		{
-			"url": "https://www.tzki.cn/",
-			"title": "小康的学习笔记",
-			"time": 2,
-			"desc": "欢迎访问小康的学习笔记。",
-			"name": "小康的学习笔记！",
-			"image": "https://files.alexhchu.com/2020/09/26/1d90699a4505d.png",
-			"path": "study"
 		},
 		{
 			"url": "https://www.lete114.top/",
@@ -186,66 +177,66 @@
 		}
 	],
 	"footer": {
-		"text": "Copyright ©️ 2020 Dreamy.TZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.coding.net'>CODING</a>"
+		"text": "Copyright ©️ 2020 DreamyTZK<p></p>CDN - <a rel='noopener noreferrer' target='_blank' href='https://www.jsdelivr.com'>jsDelivr</a> | HOST - <a rel='noopener noreferrer' target='_blank' href='https://www.vercel.app'>Vercel</a>"
 	},
 	"global": {
 		"bg": [
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/001.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/002.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/003.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/004.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/005.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/006.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/007.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/008.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/009.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/010.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/011.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/012.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/013.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/014.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/015.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/016.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/017.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/018.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/019.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/020.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/021.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/022.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/023.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/024.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/025.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/026.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/027.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/028.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/029.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/030.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/031.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/032.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/033.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/034.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/035.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/036.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/037.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/038.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/039.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/040.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/041.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/042.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/043.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/044.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/045.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/046.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/047.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/048.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/049.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/050.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/051.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/052.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/053.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/054.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/055.jpg",
-			"https://cdn.jsdelivr.net/npm/kang-static/home/assets/bg/056.jpg"
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/001.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/002.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/003.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/004.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/005.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/006.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/007.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/008.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/009.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/010.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/011.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/012.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/013.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/014.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/015.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/016.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/017.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/018.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/019.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/020.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/021.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/022.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/023.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/024.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/025.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/026.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/027.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/028.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/029.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/030.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/031.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/032.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/033.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/034.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/035.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/036.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/037.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/038.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/039.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/040.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/041.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/042.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/043.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/044.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/045.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/046.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/047.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/048.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/049.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/050.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/051.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/052.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/053.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/054.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/055.jpg",
+			"https://cdn1.tianli0.top/npm/kang-static/home/assets/bg/056.jpg"
 		]
 	},
 	"count": {
